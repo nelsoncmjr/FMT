@@ -9,20 +9,53 @@
 
 <body>
     <h1>Aula 7</h1>
-    
+    <button onclick="quandoClicar()">Clique aqui</button>
+
     <script>
         //let resultado = window.alert("Exemplo alert"); Não retorna nada undefined
         //let resultado = window.prompt("Digite seu nome"); //Retorna sempre uma string
         //let resultado = window.confirm("Você está gostando do curso?"); //Sempre retorna um booleano sim ou não
 
-        let valorJantar = window.prompt("Digite o valor do Jantar");
-        let porcentagemDoGarcom = window.prompt("Digite a taxa do garçom");
+        // function porcentagem(valorJ, porceG) {
+        //     return Number(valorJ) * (porceG) / 100;
+        // }
 
-        let taxaDoGarcom = Number(valorJantar) * Number(porcentagemDoGarcom) / 100;
-        let valorTotal = Number(valorJantar) + taxaDoGarcom;
+        // let valorJantar = Number(window.prompt("Digite o valor do Jantar"));
+        // let porcentagemDoGarcom = Number(window.prompt("Digite a taxa do garçom"));
 
-        window.alert("O valor total com taxa foi : " + valorTotal + " Reais");
-        window.alert("O valor total sem taxa foi : " + Number(valorJantar) + " Reais");
+        // let taxaDoGarcom = porcentagem(valorJantar, porcentagemDoGarcom);
+        // let valorTotal = Number(valorJantar) + taxaDoGarcom;
+
+        // window.alert("O valor total com taxa foi : " + valorTotal + " Reais");
+        // window.alert("O valor total sem taxa foi : " + Number(valorJantar) + " Reais");
+        // window.alert("O valor total da taxa foi : " + taxaDoGarcom + " Reais");
+
+        // let numeros = [];
+
+        // for (let i = 0; i < 4; i++) {
+        //     let num = Number(window.prompt("Digite um número"));
+        //     let jaTemNumero = numeros.filter()
+        //     numeros.push(num);
+        // }
+
+        // console.log(numeros.sort())
+
+        // const aluno = {
+        // }
+
+        // aluno.nome = window.prompt("Digite seu nome");
+        // aluno.curso = window.prompt("Digite seu curso");
+        // aluno.email = window.prompt("Digite seu email");
+
+        // console.log("Nome do aluno: " + aluno.nome);
+        // console.log("Curso do aluno: " + aluno.curso);
+        // console.log("Email do aluno: " + aluno.email);
+
+        // console.log(aluno);
+
+        function quandoClicar() {
+            alert("Clicou");
+        }
 
     </script>
 
