@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula7</title>
+</head>
+
+<body>
+    <h1>Aula 7</h1>
+    
+    <script>
+        //let resultado = window.alert("Exemplo alert"); Não retorna nada undefined
+        //let resultado = window.prompt("Digite seu nome"); //Retorna sempre uma string
+        //let resultado = window.confirm("Você está gostando do curso?"); //Sempre retorna um booleano sim ou não
+
+        let valorJantar = window.prompt("Digite o valor do Jantar");
+        let porcentagemDoGarcom = window.prompt("Digite a taxa do garçom");
+
+        let taxaDoGarcom = Number(valorJantar) * Number(porcentagemDoGarcom) / 100;
+        let valorTotal = Number(valorJantar) + taxaDoGarcom;
+
+        window.alert("O valor total com taxa foi : " + valorTotal + " Reais");
+        window.alert("O valor total sem taxa foi : " + Number(valorJantar) + " Reais");
+
+    </script>
+
+</body>
+
+</html>
